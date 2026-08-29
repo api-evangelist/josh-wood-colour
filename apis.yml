@@ -10,6 +10,17 @@ description: 'Josh Wood Colour is a UK-based at-home hair colour brand founded b
   exposes no public developer API, OpenAPI, or documentation surface; this profile
   captures its web identity, security posture, and customer-facing properties.'
 url: https://raw.githubusercontent.com/api-evangelist/josh-wood-colour/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
