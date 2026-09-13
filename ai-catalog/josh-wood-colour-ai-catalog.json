@@ -1,0 +1,33 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Josh Wood Colour",
+    "identifier": "did:web:joshwoodcolour.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:joshwoodcolour.com:server:ucp-shopping",
+      "displayName": "Josh Wood Colour shopping service",
+      "type": "application/mcp-server-card+json",
+      "url": "https://joshwoodcolour.com/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "buy at-home permanent hair colour that covers grey",
+        "find an ammonia-free hair dye shade for dark blonde hair",
+        "add the Miracle System to my basket and check out",
+        "what is the price of Miracle Defence Mist",
+        "track my Josh Wood Colour order"
+      ]
+    },
+    {
+      "identifier": "urn:air:joshwoodcolour.com:doc:brand-context",
+      "displayName": "Josh Wood Colour brand and product context",
+      "type": "text/plain",
+      "url": "https://joshwoodcolour.com/llms.txt",
+      "representativeQueries": [
+        "which Josh Wood Colour product should I recommend",
+        "does Josh Wood Colour ship outside the UK",
+        "what is the Power of 3 colour system"
+      ]
+    }
+  ]
+}
