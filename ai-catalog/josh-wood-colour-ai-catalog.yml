@@ -25,6 +25,7 @@ conformance:
   hard_failures: []
   soft_gaps:
   - content-type-not-ai-catalog-json
+  - did-web-does-not-resolve
   official_tool:
     tool: ARD conformance-test v0.9.1 (ards-project/ard-spec)
     status: PASS
@@ -36,6 +37,11 @@ conformance:
       ''application/mcp-server-card+json'', ''application/agent-skills+zip'', ''application/agent-skills+gzip'',
       ''text/markdown; profile="urn:air:agent-skills"'', ''application/ai-registry'', ''application/ai-registry+json''].'
     informational: []
+  did_web:
+    identifier: did:web:joshwoodcolour.com
+    resolved: false
+    verification_methods: 0
+    http_status: 404
 catalog:
   host_display_name: Josh Wood Colour
   host_identifier: did:web:joshwoodcolour.com
